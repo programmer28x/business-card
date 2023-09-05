@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #118ab2;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    border-bottom: 7px solid #ef476f;
+    border-radius: 15px;
+       animation-duration: 3s;
+ animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.card:hover {
+    background-color: #06d6a0;
+    
+    
+}
+
